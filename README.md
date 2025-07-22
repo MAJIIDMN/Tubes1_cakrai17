@@ -88,8 +88,6 @@ Menampilkan pesan "Moving...", menambah `moveCount`, lalu transisi kembali ke `I
 #### `void performShooting()`
 Menampilkan "Shooting...", dan kembali ke `IDLE`.
 
-> ✅ Tidak menghapus moveCount, agar `CALCULATION` tetap bisa berjalan.
-
 ---
 
 #### `void performCalculation()`
