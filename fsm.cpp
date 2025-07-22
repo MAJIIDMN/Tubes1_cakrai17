@@ -12,6 +12,7 @@ uint32_t millis() {
     return static_cast<uint32_t>(chrono::duration_cast<chrono::milliseconds>(
         chrono::steady_clock::now().time_since_epoch()).count());
 }
+
 FSM::FSM() : currentState(SystemState::INIT), lastHeartbeat(0), delay(1000), errorCount(0), moveCount(0) {
     stateHistory.clear();
 }
