@@ -158,9 +158,19 @@ Choose an action:
 Enter choice: 2
 Moving...
 
+Choose an action:
+1. Display Status and History
+2. Move
+3. Shoot
+4. Calculate
 Enter choice: 4
 Performing calculation...
 
+Choose an action:
+1. Display Status and History
+2. Move
+3. Shoot
+4. Calculate
 Enter choice: 1
 Status:
 - State: IDLE
