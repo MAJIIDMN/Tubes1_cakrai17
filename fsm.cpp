@@ -8,16 +8,6 @@
 
 using namespace std;
 
-enum class SystemState {
-        INIT,
-        IDLE,
-        MOVEMENT,
-        SHOOTING,
-        CALCULATION,
-        ERROR,
-        STOPPED
-};
-
 uint32_t millis() {
     return static_cast<uint32_t>(chrono::duration_cast<chrono::milliseconds>(
         chrono::steady_clock::now().time_since_epoch()).count());
